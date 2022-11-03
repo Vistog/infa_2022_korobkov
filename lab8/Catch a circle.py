@@ -255,7 +255,7 @@ while not finished:
     """
     font = pygame.font.Font(None, 72)
     text = font.render("points:" + str(points), True, (255, 0, 0))
-    place = text.get_rect(center=(100, 100))
+    place = text.get_rect(center=(200, 100))
     screen.blit(text, place)
     """
     Блок, отвечащий за ежетиковое оновление экрана, вызова функций заполнения объектов, рассчёта их перемещений
