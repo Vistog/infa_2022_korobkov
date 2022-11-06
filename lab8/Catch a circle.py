@@ -225,6 +225,7 @@ while not finished:
             """
             if event.key == 27:
                 finished = True
+            print(event.key)
         elif event.type == pygame.MOUSEBUTTONDOWN:
             """
             Проверка попадания в случае клика мышью
